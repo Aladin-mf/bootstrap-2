@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Lobster Two',
+cursive;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+$light-black:#1e1c1caf;
+$bggradient:linear-gradient(to bottom, #dd2476,#ff512f);
+$light-gray:rgba(255,255,255,0.5);
+
+header{
+    background: #dd2476;
+    background: $bggradient;
+a{
+    font-size: .9em;
+    color: whitesmoke;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0 2px 15px 0 rgba($color: #000000, $alpha: .2);
+    z-index: 1;
+    a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        &:hover{
+            background: #ddd;
+        }
+    }
+}
+.nav-item{
+    padding: .9em;
+    &:last-child {
+        padding-right: 10.5em;
+    }
+}
+.nav-link:hover{
+    color: black;
+}
+.navbar-brand{
+    padding-left: 8rem;
+
+}
+.row{
+    .col-md-5{
+     padding: 4.2vmin 1vmin;
+     img{
+         width: 90%;
+     }
+    }
+    .col-md-7{
+        padding: 22vmin 1vmin;
+        padding-bottom: 35vmin;
+        h6{
+            padding: 1vmin;
+            letter-spacing: 4px;
+        }
+        h1{
+            font-size: 8.5vmin;
+            font-weight: bold;
+            padding: .1em 0em;
+        }
+        p{
+            padding: 1vmin 5vmin;
+        }
+        button{
+            border-radius: 30px;
+        }
+    }
+}
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+// main 
+.section-1{
+    padding: 20vmin;
+    .row{
+        .col-md-6{
+            .pray{
+                img{
+                    opacity: .8;
+                    border-radius: .2em;
+                    width: 80%;
+                }
+            }
+            .panel{
+                position: absolute;
+                top: 7vmin;
+                left: -18vmin;
+                background: blanchedalmond;
+                border-radius: 3px;
+                text-align: center;
+                padding: 13vmin 5vmin 20vmin 10vmin;
+                box-shadow: 0px 25px 42px rgba(rgb(0, 0, 0),.2);
+                z-index: 1;
+                h1{
+                    font-weight: bold;
+                    padding: .4em 0;
+                    font-size: 2em;
+
+                }
+                p{
+                    font-size: .9em;
+                    color: rgba($color: #000000, $alpha: .5);
+                }
+            }
+            &:last-child{
+                position: relative;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start 
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(pexels-photo-452738.jpeg);
+    background-position: -24rem -19rem;
+    background-repeat: no-repeat;
+ position: relative;
+    background-size: 150%;
+    .content{
+        background: rgba($color: #000000, $alpha: .7);
+        height: 100%;
+        width: 100%;
+    
+        padding-top: 19vmin;
+        h1{
+            font-size: 6vmin;    color: white;
+        }  
+        p{
+            font-size: 2vmin;    color: #e5e5e5;
+        }
+ 
+    }
+  
+}
+
+  .numbers {
+      margin-top: -15vmin;
+      .rect {
+          z-index: 1;
+          position: relative;
+          background: white;
+          width: 17rem;
+          height: 12rem;
+          padding-top: 3.5vmin;
+          margin: 1rem;
+          border-radius: .5em;
+          box-shadow: 1px 2px 50px 0 rgba(255, 0, 0, .39);
+          h1{
+              font-size: 5rem;
+              color: tomato;
+             
+          }
+      }
+
+  }
+  .purchase{
+      h1{
+           padding-top: 15vmin;
+           padding-bottom: .1em;
+      }
+      p{
+          font-size: 3vmin;
+          padding-bottom: 10vmin;
+      }
+      .cards{
+          
+          
+          .card{
+              width: 22rem;
+              margin: 3vmin;
+              div{
+              margin: 0;
+              padding: 0;
+              .card-title {
+background: rgba(208, 241, 241, 0.12);
+padding: 1.4rem 2.5rem;
+font-size: 5vmin;
+          }
+          }
+          .card-text{
+              padding: 2.5rem 3rem;
+              color: $light-black;
+          }
+          .pricing{
+background: rgba(208, 241, 241, 0.12);
+border-top-left-radius: 170px;
+border-top-right-radius: 170px;
+h1{
+    font-size: 10vmin;
+    padding: 1rem .5rem;
+}
+          }
+          }
+      }
+  }
+
+  .section-3{
+      height: 70vmin;
+      margin-top: 15vmin;
+      background: $bggradient;
+      .col-md-12{
+          h1{
+              padding: 2em 0 .5em 0;
+              color: whitesmoke;
+              font-size: 6vmin;
+          }
+          p{
+              padding: 0 4em;
+              padding-bottom: 2em;
+              color: $light-gray;
+              font-size: 3vmin;
+          }
+      }
+      .desktop{
+          background: white;
+          display: inline-block;
+          border-radius: 3em;
+          padding: 2vmin 4.5vmin;
+          margin: 1em;
+          h3{
+              font-size: 4vmin;
+
+          }
+             p{
+                 font-size: 2vmin;
+             }
+        }
+  }
+
+  .section-4{
+      .container{
+          h1{
+              font-size: 6vmin;
+              padding-top: 14vmin;
+          }
+      }
+      .team{
+          padding: 10vmin 4vmin;
+      }
+      .card{
+          width: 22rem;
+          margin-top: 10vmin;
+          .card-text{
+              padding: 0.5em;
+          }
+          .card-body
+          {
+              a{
+                  font-size: 1.5em;
+              }
+          }
+          .carousel-item{
+              padding-left: 3rem;
+          }
+          .border-red{
+              border-radius: 340px;
+              width: 60%;
+          }
+      }
+  }
+
+
+
+
+  footer{
+      background: rgba($color: #000000, $alpha: .815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+  p{
+      span{
+          color: #ff512f;
+      }
+  }
+  input{
+      border: none !important;
+      &::placeholder{
+          color: rgb(195, 216, 235) !important;
+      }
+  }
+  .input-group-text{
+      background: $bggradient;
+      border: none !important;
+  }
+  .column{
+      i{
+          color: #dd2476;
+      }
+      i+i{
+          padding: 0 .5em;
+      }
+  }
+    }
+.navbar-dark .navbar-brand {
+    color: #fff
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: #fff
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255)
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255)
+}
+
+
+
+
+
+
+
+
+
+    @media only screen and(max-width:768px){
+        header{
+            .navbar-brand{
+                padding-left: 1rem;
+            }
+        }
+
+.section-1{
+    position: initial;
+    width: initial;
+    height: initial;
+}
+.section-2{
+    .cover{
+        background-position: -25vmin -10vmin;
+
+    }
+
+}
+.numbers{
+    .rect{
+        width: 10rem;
+        height: 8rem;
+        h1{
+            font-size: 2rem;
+        }
+    }
+}
+
+.section-3{
+    height: inherit;
+    .row{
+        h1{
+            padding: 6vmin 4vmin;
+
+        }
+        .col-md-6{
+text-align: center !important;
+        }
+    }
+    .desktop{
+        i{
+            font-size: 8vmin;
+        }
+    }
+}
+.section-4{
+    .carousel-item{
+        padding-left: .6rem;
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    }
+ @media only screen and(max-width:1400px){
+        .section-1{
+            display: none;
+        }
+ }
+    @media only screen and(max-width:600px){
+        
+        footer .row .col-md-12{
+            margin-top: 8vmin;
+            text-align: center;
+        }
+        footer{
+             .col-md-5 {
+                 text-align: center;
+             }
+        }
+        .section-4 .card{
+            width: 18rem;
+        }
+    }
